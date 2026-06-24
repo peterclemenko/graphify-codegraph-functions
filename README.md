@@ -4,7 +4,7 @@ A production-grade, multi-interface architectural sidecar serving as the event-r
 
 The intention is to take graphify and add functionality to bring it up to par with gitnexus and beyond
 
-Instead of replacing graphify, it is intened to replace the functionality that gitnexus brings to the table, as a sidecar for graphify
+Instead of replacing graphify, it is intended to replace the functionality that gitnexus brings to the table, as a sidecar for graphify
 
 
 ## System Architecture
