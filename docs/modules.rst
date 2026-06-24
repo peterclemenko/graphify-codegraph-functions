@@ -4,4 +4,4 @@ src
 .. toctree::
    :maxdepth: 4
 
-   python_package
+   graphify_codegraph_functions

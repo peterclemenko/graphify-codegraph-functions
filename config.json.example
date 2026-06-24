@@ -1,0 +1,25 @@
+{
+  "graph_engine": "neo4j",
+  "neo4j_uri": "bolt://127.0.0.1:7687",
+  "neo4j_user": "neo4j",
+  "neo4j_password": "password",
+  "falkordb_host": "127.0.0.1",
+  "falkordb_port": 6379,
+  "falkordb_graph": "codegraph",
+  "falkordb_password": null,
+  "nats_url": "nats://127.0.0.1:4222",
+  "lsp_language": "python",
+  "lsp_root_path": ".",
+  "api_host": "127.0.0.1",
+  "api_port": 8000,
+  "lsp_servers": {
+    "custom_lang": {
+      "binaries": ["custom-lsp-server"],
+      "manifests": ["custom.config", "package.json"],
+      "extensions": [".custom"],
+      "language_id": "custom_lang",
+      "args": ["--stdio"]
+    }
+  }
+}
+
